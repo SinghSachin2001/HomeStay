@@ -1,6 +1,6 @@
 <% layout('layouts/boilerplate')%>
 <div class="row">
-    <h1 class="text-center">New Campground</h1>
+    <h1 class="text-center">Add Dorm</h1>
     <div class="col-md-6 offset-md-3">
         <form action="/campgrounds" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
             <div class="mb-3">
@@ -26,10 +26,10 @@
                 </div>
             </div> -->
             <div class="mb-3">
-                <label class="form-label" for="price">Campground Price</label>
+                <label class="form-label" for="price">Price</label>
                 <div class="input-group">
-                    <span class="input-group-text" id="price-label">$</span>
-                    <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
+                    <span class="input-group-text" id="price-label">INR</span>
+                    <input type="text" class="form-control" id="price" placeholder="Per Month" aria-label="price"
                         aria-describedby="price-label" name="campground[price]" required>
                 </div>
                 <div class="valid-feedback">
@@ -39,7 +39,7 @@
 
             <div class="mb-3">
                 <label class="form-label" for="description">Description</label>
-                <textarea class="form-control" type="text" id="description" name="campground[description]"
+                <textarea class="form-control" type="text" id="description" name="campground[description]" placeholder="Tell us about the food, wifi, washrooms and more !"
                     required></textarea>
                 <div class="valid-feedback">
                     Looks good!
@@ -55,9 +55,10 @@
                 </div>
             </div>
             <div class="mb-3">
-                <button class="btn btn-success">Add Campground</button>
+                <button class="btn btn-success">Post</button>
+                <button class="btn btn-danger" href="/campgrounds">See All Dorms</button>
             </div>
         </form>
-        <a href="/campgrounds">All Campgrounds</a>
+        
     </div>
 </div>
