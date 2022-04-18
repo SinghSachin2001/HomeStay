@@ -42,3 +42,9 @@ body {
     background-color:rgb(2, 117, 216);
     border-color:rgb(2, 117, 216) ;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  

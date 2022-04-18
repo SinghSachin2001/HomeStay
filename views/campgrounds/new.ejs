@@ -1,6 +1,6 @@
 <% layout('layouts/boilerplate')%>
 <div class="row">
-    <h1 class="text-center">Add Dorm</h1>
+    <h1 class="text-center">Add PG</h1>
     <div class="col-md-6 offset-md-3">
         <form action="/campgrounds" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
             <div class="mb-3">
@@ -26,7 +26,7 @@
                 </div>
             </div> -->
             <div class="mb-3">
-                <label class="form-label" for="price">Price</label>
+                <label class="form-label" for="price">Rent</label>
                 <div class="input-group">
                     <span class="input-group-text" id="price-label">INR</span>
                     <input type="text" class="form-control" id="price" placeholder="Per Month" aria-label="price"
@@ -56,7 +56,7 @@
             </div>
             <div class="mb-3">
                 <button class="btn btn-success">Post</button>
-                <button class="btn btn-danger" href="/campgrounds">See All Dorms</button>
+                <button class="btn btn-danger" href="/campgrounds">See All PGs</button>
             </div>
         </form>
         
