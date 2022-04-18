@@ -1,15 +1,13 @@
 body {
    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.oyoroomscdn.com/uploads/hotel_image/5496/large/e023548b91980ef8.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 100vh;
     background-size: cover;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-
-    
 }
+
 .cover-container {
   max-width: 60vw;
 }
